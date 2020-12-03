@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { BackgroundImage } from "../pages/index"
+import BackgroundImage from "."
 
 function MyApp({ Component, pageProps }) {
   return <BackgroundImage />
