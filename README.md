@@ -26,9 +26,9 @@ yarn dev
 npm run dev
 ```
 
-Made with ❤️ by [@markmusic2727](https://www.twitter.com/markmusic2727)
+Made with ❤️ by [**@markmusic2727**](https://www.twitter.com/markmusic2727).
 
-Contributions made by [@FilippoFonseca](https://ww.twitter.com/FilippoFonseca).
+Contributions made by [**@FilippoFonseca**](https://ww.twitter.com/FilippoFonseca).
 
 
 
