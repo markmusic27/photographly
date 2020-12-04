@@ -1,5 +1,5 @@
 import react from "react";
-import { AddButton, SubtractButton, } from "../styles/style";
+import { AddButton, SubtractButton, Wrapper, Header1 } from "../styles/style";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -43,13 +43,24 @@ class BackgroundImage extends react.Component {
 
     render(){
         return <div>
+            <div style={{
+                textAlign: "center"
+            }}>
+            <Header1>📸 Photographly</Header1>
+            </div>
+            <Wrapper>
             <Head>
                 <title>Photographly</title>
                 <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/camera-with-flash_1f4f8.png" />
             </Head>
             <img src={imageDatabase[this.state.currentImage]} />
-            <AddButton onClick={() => this.setState({ currentImage: this.state.currentImage- 1 })}/>
-            <SubtractButton onClick={() => this.setState({ currentImage: this.state.currentImage+ 1 })}/>
+            <div style={{
+                margin: "auto"
+            }} >
+                <AddButton onClick={() => this.setState({ currentImage: this.state.currentImage- 1 })}>← Previous</AddButton>
+            <SubtractButton onClick={() => this.setState({ currentImage: this.state.currentImage+ 1 })}>  Next →  </SubtractButton>
+            </div>
+        </Wrapper>
         </div>
         
     }
@@ -57,4 +68,4 @@ class BackgroundImage extends react.Component {
 
 export default BackgroundImage;
 
-// this.state.currentImage
+// <Header1>📸 Photographly</Header1>
