@@ -16,13 +16,6 @@ a {
 }
 
 img {
-  width: 400px;
-  height: 400px;
-}
-
-button {
-  width: 0.9em;
-  height: 0.9em;
-  fill: blue;
-  margin-right: 0.5em;
+  width: 800px;
+  height: 500px;
 }
