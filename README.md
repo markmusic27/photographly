@@ -1,30 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📸 Photographly
+
+Summative project for *Digital Photography A5-6 9th-10th* showcasing Semester 1 photos.
 
 ## Getting Started
 
-First, run the development server:
+**1. Clone the repo**
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone git@github.com:markmusic2727/photographly.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Install all dependecies**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+yarn
+# or
+npm i
+```
 
-## Learn More
+**3. Start the development server**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn dev
+# or
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by [@markmusic2727](https://www.twitter.com/markmusic2727)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions made by [@FilippoFonseca](https://ww.twitter.com/FilippoFonseca).
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
